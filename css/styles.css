@@ -1,0 +1,363 @@
+body {
+   background-color: #ffffff;
+  font-family: "Roboto", sans-serif; 
+  color: #434455;
+}
+
+:root {
+  var(--iris, #4d5ae5);
+  var (--navyblue, #2e2f42);
+
+ 
+}
+address {
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.header-page-link {
+  font-family: "Raleway", sans-serif;
+}
+
+.header-page-link {
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.span {
+  color: var(--navyblue, #2e2f42);
+}
+
+.header-menu-link {
+  color: var(--navyblue, #2e2f42);
+  /* Body Medium */
+
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+.address-menu-link {
+  color: var(--slate, #434455);
+  /* Body */
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
+.address-menu-link:hover,
+.address-menu-link:focus {
+  color: #404bbf;
+}
+
+.hero-page
+ {
+  background: var(--navyblue, #2E2F42);
+
+}
+.hero-page-list {
+  background-color: var(--navyblue, #2e2f42);
+  color: var(--white, #fff);
+  text-align: center;
+  /* Header 1 */
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  /* 107.143% */
+  letter-spacing: 0.02em;
+}
+
+.hero-page-list {
+  background-color: var(--navyblue, #2e2f42);
+  color: var(--white, #fff);
+  text-align: center;
+  /* Header 1 */
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  /* 107.143% */
+  letter-spacing: 0.02em;
+}
+
+.hero-page-btn {
+  background-color: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  /* Button Text */
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+   font-weight: 500;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.04em;
+}
+.hero-page-btn:hover,
+.hero-page-btn:focus {
+  background-color: #404BBF;
+  
+}
+
+.list-item-list {
+  background: #FFF;
+}
+
+.list-title {
+  color: var(--navyblue, #2e2f42);
+  /* Header 3 */
+
+  font-size: 20px;
+
+  font-weight: 500;
+  line-height: 1.2;
+  /* 120% */
+  letter-spacing: 0.02em;
+}
+
+.list-title-text {
+  color: var(--slate, #434455);
+  /* Body */
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.img-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  /* Header 2 */
+
+  font-size: 36px;
+
+  font-weight: 700;
+  line-height: 1.11;
+  /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+
+
+.team-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  /* Header 2 */
+ background-color: #F4F4FD;
+  font-size: 36px;
+font-weight: 700;
+  line-height: 1.11;
+  /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+  .team {
+    background-color: #F4F4FD;
+  }
+
+
+.team-item-list {
+  background: #FFFFFF;
+}
+
+
+.team-list {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  /* Header 3 */
+
+  font-size: 20px;
+
+  font-weight: 500;
+  line-height: 1.2;
+  /* 120% */
+  letter-spacing: 0.02em;
+}
+
+.team-text {
+  color: var(--slate, #434455);
+  text-align: center;
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
+.footer {
+  background: var(--navyblue, #2e2f42);
+}
+
+.footer-page-link {
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+
+  font-weight: 800;
+  line-height: 1.17;
+  /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-page {
+  color: var(--cloud, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+
+  font-weight: 800;
+  line-height: 1.17;
+  /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-page-text {
+  color: var(--cloud, #f4f4fd);
+  /* Body */
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.web-list-link {
+  color: var(--navyblue, #2e2f42);
+  /* Body Medium */
+
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.web-list-link:hover,
+.web-list-link:focus {
+  color: #404bbf;
+}
+
+.address-menu-link {
+  color: var(--slate, #434455);
+  /* Body */
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.32px;
+}
+.address-menu-link:hover,
+.address-menu-link:focus {
+  color: #404bbf;
+}
+.hero-project-button {
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  /* Button Text */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.04em;
+  background-color: #F4F4FD;
+}
+
+.hero-project-button:hover,
+.hero-project-button:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
+  cursor: pointer;
+
+}
+
+.portfolio-name {
+  color: var(--navyblue, #2e2f42);
+  /* Header 3 */
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  /* 120% */
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  color: var(--slate, #434455);
+  /* Body */
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.footer-link {
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+
+  font-weight: 800;
+  line-height: 1.17;
+  /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-link-span {
+  color: var(--cloud, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  /* Body */
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.02em;
+}
