@@ -144,41 +144,37 @@ font-weight: 500;
 .hero-page
  {
   background: var(--navyblue, #2E2F42);
+  padding: 188px 0;
 }
 .hero-page-list {
   background-color: var(--navyblue, #2e2f42);
   color: var(--white, #fff);
-  text-align: center;
-  /* Header 1 */
-  font-size: 56px;
-  padding-top: 188px;
-  padding-right: 472px;
-  padding-left: 472px;
-  margin-bottom: 48px;
-  max-width: 496px;
-  font-weight: 700;
-  line-height: 1.07;
-  /* 107.143% */
-  letter-spacing: 0.02em;
+ 
+ 
 }
 
 .hero-page-list {
   background-color: var(--navyblue, #2e2f42);
   color: var(--white, #fff);
   text-align: center;
+  max-width: 496px;
   /* Header 1 */
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   /* 107.143% */
   letter-spacing: 0.02em;
+  
 }
 
 .hero-page-btn {
   background-color: var(--iris, #4d5ae5);
   color: var(--white, #fff);
-  
- 
+  display: block;
+  min-width: 169px;
+   height: 56px;
+   border: none;
+   border-radius: 4px; 
   /* Button Text */
   font-family: inherit;
   font-size: 16px;
