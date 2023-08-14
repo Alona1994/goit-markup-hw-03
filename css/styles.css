@@ -13,6 +13,12 @@ body {
 address {
   font-style: normal;
 }
+
+img {
+  display: block;
+}
+
+
 .link {
   text-decoration: none;
 }
@@ -34,18 +40,17 @@ margin-top: 0;
 margin-bottom: 0;
 }
 
-img {
-  display: block;
-}
+
 
 .container {
   width: 100% ;
-  max-width:1128px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
- 
+ display: flex;
+
   
 }
 
@@ -63,6 +68,12 @@ height: 600px;
 }
 .hero-page {
   padding-bottom: 120px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-page-navigation {
+  display: flex;
+  align-items: center;
 }
 
 .header-page-link {
@@ -72,9 +83,9 @@ height: 600px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
-
-  letter-spacing: 0.03em;
+ letter-spacing: 0.03em;
   text-transform: uppercase;
+ margin-right: 76px;
 }
 
 .span {
