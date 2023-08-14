@@ -34,21 +34,25 @@ margin-top: 0;
 margin-bottom: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 100% ;
-  max-width: 1128px ;
+  max-width:1128px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
+ 
+  
 }
 
 .container-wrap {
   background: var(--navyblue, #2E2F42);
 height: 600px;
-
 }
-
 
 
 
