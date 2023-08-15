@@ -235,9 +235,17 @@ font-weight: 500;
   letter-spacing: 0.02em;
 }
 
+.img-item {
+  
+  display: flex;
+  gap: 24px;
+
+}
+
 .img-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
+  margin-bottom: 72px;
   /* Header 2 */
 
   font-size: 36px;
