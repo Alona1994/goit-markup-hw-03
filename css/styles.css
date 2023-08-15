@@ -193,11 +193,19 @@ font-weight: 500;
 }
 
 .list {
-  padding-bottom: 120px;
+  padding: 120px 0;
  
 }
 
+.list-item {
+  display: flex;
+  gap: 24px;
+}
 
+
+ul li:first-child {
+  width: calc((100% - 72px) / 4);
+}
 
 .list-item-list {
   background: #FFF;
