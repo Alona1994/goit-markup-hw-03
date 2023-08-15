@@ -289,6 +289,13 @@ font-weight: 700;
   
 }
 
+.team-item li {
+  border-radius: 0px 0px 4px 4px; 
+}
+
+.team-team {
+  padding: 32px 0
+}
 
 .team-list {
   color: var(--navyblue, #2e2f42);
