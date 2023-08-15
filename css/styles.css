@@ -196,25 +196,12 @@ font-weight: 500;
   padding: 120px 0;
  
 }
-
-.visually-hidden {
-    position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-}
-
 .list-item-list {
   display: flex;
   gap: 24px;
 }
 
-.list-item-list li:first-child {
-    width: calc((100% - 72px) / 4);
-}
+
 
 
 .list-item-list {
