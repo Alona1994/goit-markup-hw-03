@@ -197,15 +197,13 @@ font-weight: 500;
  
 }
 
-.list-item {
+.list-item-list {
   display: flex;
   gap: 24px;
 }
 
 
-ul li:first-child {
-  width: calc((100% - 72px) / 4);
-}
+
 
 .list-item-list {
   background: #FFF;
