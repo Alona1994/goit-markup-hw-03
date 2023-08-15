@@ -262,7 +262,8 @@ font-weight: 500;
 .team-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  padding-bottom: 72px;
+  
+  margin-bottom: 72px;
   /* Header 2 */
  background-color: #F4F4FD;
   font-size: 36px;
@@ -274,8 +275,14 @@ font-weight: 700;
 }
   .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
   }
 
+
+  .team-item {
+    display: flex;
+    gap: 24px;
+  }
 
 .team-item-list {
   background: #FFFFFF;
