@@ -369,11 +369,11 @@ border-top: none;
    
 }
 .footer-page-link {
-  display: inline-block;
+ display: inline-block;
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  display: inline-block;
+  
    
 margin-bottom: 16px;
   font-weight: 800;
@@ -388,7 +388,7 @@ margin-bottom: 16px;
   color: var(--cloud, #f4f4fd);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-display: inline-block;
+
   font-weight: 800;
   line-height: 1.17;
   /* 116.667% */
