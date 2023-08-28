@@ -36,6 +36,7 @@ img {
 }
 .list {
   list-style-type: none;
+  padding: 120px 0;
 }
 .header-page-link {
   font-family: "Raleway", sans-serif;
@@ -327,6 +328,9 @@ font-weight: 700;
   /* 150% */
   letter-spacing: 0.02em;
 }
+.img {
+  padding-top: 120px; padding-bottom: 120px;
+}
 
 .img-title {
   margin-bottom: 72px;
@@ -369,6 +373,7 @@ border-top: none;
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
+  display: inline-block;
    
 margin-bottom: 16px;
   font-weight: 800;
