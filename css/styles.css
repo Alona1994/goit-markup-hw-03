@@ -56,11 +56,10 @@ margin-top: 0;
 margin-bottom: 0;
 }
 
-.head{
-  display: flex;
-}
+
 
 .container {
+  display: flex;
   width: 100% ;
   width: 1158px;
   padding-left: 15px;
